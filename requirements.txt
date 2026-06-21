@@ -1,0 +1,8 @@
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+mediapipe==0.10.33
+scikit-learn>=1.4.0,<2.0
+opencv-python-headless==4.9.0.80
+numpy==1.26.4  # mediapipe 0.10.x requires numpy 1.x
+pandas==2.2.1
+python-multipart==0.0.9
