@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y \
     libgomp1 \
     curl \
     libgl1 \
+    libgles2 \
+    libegl1 \
+    libgbm1 \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
